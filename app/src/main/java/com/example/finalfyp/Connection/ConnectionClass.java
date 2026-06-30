@@ -9,11 +9,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionClass {
-    private static final String JDBC_DRIVER = "net.sourceforge.jtds.jdbc.Driver";
-    private static final String SERVER = "192.168.0.107"; // Your SQL Server IP
-    private static final String USER = "ooad";
-    private static final String PASSWORD = "123"; // The new password
-    private static final String DATABASE = "fetalhealthanalysis";
+private static final String SERVER = "YOUR_SERVER_IP"; // Replace with your SQL Server IP
+private static final String USER = "YOUR_DB_USER";
+private static final String PASSWORD = "YOUR_DB_PASSWORD";
+private static final String DATABASE = "fetalhealthanalysis";
 
     @SuppressLint("NewApi")
     public static Connection connectionClass() {
