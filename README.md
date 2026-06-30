@@ -83,7 +83,7 @@ FinalFyp/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/sheikhalyan/FinalFyp.git
+   git clone https://github.com/sheikhalyan/fetal-health-analysis-android-app.git
    ```
 2. Open the project in Android Studio
 3. Run `DB Script/Scripts.sql` against your SQL Server instance to set up the schema
